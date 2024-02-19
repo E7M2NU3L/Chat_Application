@@ -1,0 +1,8 @@
+.homePage{
+    height: 100vh;
+    background-color: #C1C8E4;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

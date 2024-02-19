@@ -9,9 +9,9 @@ import Footer from './utils/Footer';
 
 function App() {
   return (
-    <>  
+    <div>
       <Router>
-        <Navbar />
+        {/*<Navbar /> */}
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/students' element={<Students />} />
@@ -19,7 +19,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-    </> 
+    </div> 
   );
 }
 
